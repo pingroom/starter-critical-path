@@ -1,0 +1,57 @@
+{
+  "planId": "community-guide-001",
+  "title": "Community guide preparation",
+  "tasks": [
+    {
+      "id": "draft",
+      "label": "Draft guide",
+      "details": "Write the initial reading guide.",
+      "dependsOn": [],
+      "minutes": [
+        15,
+        30,
+        60
+      ]
+    },
+    {
+      "id": "illustrate",
+      "label": "Draw illustration",
+      "details": "Prepare one illustration for the guide.",
+      "dependsOn": [
+        "draft"
+      ],
+      "minutes": [
+        15,
+        30,
+        60
+      ]
+    },
+    {
+      "id": "proofread",
+      "label": "Proofread text",
+      "details": "Review spelling and clarity.",
+      "dependsOn": [
+        "draft"
+      ],
+      "minutes": [
+        15,
+        30,
+        45
+      ]
+    },
+    {
+      "id": "package",
+      "label": "Package files",
+      "details": "Combine reviewed text and illustration into a local draft.",
+      "dependsOn": [
+        "illustrate",
+        "proofread"
+      ],
+      "minutes": [
+        5,
+        10,
+        15
+      ]
+    }
+  ]
+}
